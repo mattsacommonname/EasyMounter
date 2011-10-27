@@ -1,0 +1,153 @@
+<html>
+
+<head>
+
+<title>EasyMounter - Readme</title>
+
+</head>
+
+<body bgcolor = "white">
+
+<b><font size = "+3" color = "blue">EasyMounter</font></b>
+<br><b><font size = "+1">Version 0.3</font></b>
+
+<p>
+
+<blockquote>
+	A GUI program for mounting Windows shares.
+
+	<p>
+
+	Actually, a graphical front-end for the command-line program <tt>cifsmount</tt>.
+	
+	<p>
+	
+	<b>Note:</b> If you have WON or samba working, you don't need this program.
+</blockquote>
+
+<p>
+
+<b><font size = "+2" color = "blue">Features</font></b>
+
+<p>
+
+<ul>
+	<li>Provides a graphical front-end for the program <tt>cifsmount</tt>. No messing with the command line! (Unless that's your thing.)
+
+	<p>
+
+	<li>Remembers and lists all shares that you create (until you delete them), so you don't have to type in the information over and over again.
+</ul>
+
+<p>
+
+<b><font size = "+2" color = "blue">Instructions</font></b>
+
+<p>
+
+<b><font size = "+1">To add a mount:</font></b>
+
+<ol>
+	<li>Click on <b>Add</b>
+	<p>
+	<li>Enter the indicated data into each of the text areas:
+	<ul>
+		<li><b>IP:</b> this is the ip address of the remote machine
+		<li><b>Workgroup:</b> the workgroup of the remote machine
+		<li><b>Host:</b> the remote machine's name
+		<li><b>Share:</b> the directory (or printer) that the remote machine is sharing
+		<li><b>Username:</b> the username you need to access the share (if it doens't need one, just leave it as &quot;<tt>user</tt> - it <i>cannot</i> be blank)
+		<li><b>Password:</b> the password you need to access the share (if it doesn't need one, just leave it as &quot;<tt>pass</tt> - it <i>cannot</i> be blank)
+		<li><b>Local mount:</font></b> the local directory you want the share mounted at
+	</ul>
+	<p>
+	<li>Click on <b>Add</b> to add the mount, <i>or</i> <b>Cancel</b> return to the main window.
+</ol>
+
+<b><font size = "+1">To edit a mount:</font></b>
+
+<ol>
+	<li>Click on a mount in the list
+	<p>
+	<li>Click on <b>Edit</b>
+	<p>
+	<li>Edit the information as neccessary (see <b>To add a mount</b>, above)
+	<p>
+	<li>Click on <b>Edit</b> to commit the changes, <i>or</i> <b>Cancel</b> to discard them.
+</ol>
+
+<p>
+
+<b><font size = "+2" color = "blue">Bugs</font></b>
+
+<p>
+
+<b><font size = "+1">Known Bugs</font></b>
+
+<p>
+
+<ul>
+	<li>After editing an already existing mount, the list item is redrawn incorrectly.
+</ul>
+
+<p>
+
+<b><font size = "+2" color = "blue">Warranty</font></b>
+
+<p>
+
+<blockquote>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</blockquote>
+
+<p>
+
+<b><font size = "+2" color = "blue">Change Log</font></b>
+
+<p>
+
+<b>2000
+<br>version 0.4</b>
+
+<ul>
+	<li>Help menu command actually <i>works</i> now.
+	<li>Made the mount success/failure alert look prettier.
+	<li>Fixed spelling errors in the Readme.html file (this file).
+</ul>
+
+<p>
+
+<b>Nov 17, 2000
+<br>version 0.3</b>
+
+<ul>
+	<li>Now displays information about the success/failure of mounting the share.
+	<li>Added menus.
+	<li>Added a help file (well, actually, i just added a menu item for this file).
+	<li>Added an about box.
+</ul>
+
+<p>
+
+<b>Nov 16, 2000
+<br>version 0.2</b>
+
+<ul>
+	<li>Minor cosmetic changes.
+	<li>Updated some of the back-end mechanics to produce...
+	<li>...Minor user interface changes.
+	<li>Fixed error that caused the program to crash when the <b>Mount</b> button was clicked if no mount was selected (thanks to Andrew Renck for pointing that out!).
+</ul>
+
+<p>
+
+<b>Nov 15, 2000
+<br>version 0.1</b>
+
+<blockquote>
+	Initial release.
+</blockquote>
+
+</body>
+
+</html>
